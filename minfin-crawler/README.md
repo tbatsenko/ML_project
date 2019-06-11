@@ -24,5 +24,10 @@ scrapper.js - `node scrapper.js --indexFile ./output/indexerOutput-1560263121013
 
 ## Scrapper output
 
-Folder with files where the name is a `[date]/[id].txt`
-The file content is the content of the article
+Folder with 4 folders
+- texts
+- titles
+- titles-and-texts
+- done (no important data. used only as a helper)
+
+File names are dates when they were published in ISO format `[date].txt`
