@@ -4,6 +4,7 @@
 
 ### How to run
 1. Copy `Models` folder to `data-analysis` folder
+2. Copy 'data' folder to `data-analysis` - move all files to `data-analysis`, no need for separate folder.
 
 ## Data scrapping
 
