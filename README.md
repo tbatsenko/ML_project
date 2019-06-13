@@ -2,6 +2,9 @@
 
 ## Data analysis
 
+### How to run
+1. Copy `Models` folder to `data-analysis` folder
+
 ## Data scrapping
 
 ### How to run
@@ -35,8 +38,3 @@ Folder with 4 folders
 - done (no important data. used only as a helper)
 
 File names are dates when they were published in ISO format `[date].txt`
-
-
-## How to run
-1. Copy `Models` folder to `data-analysis` folder
-
