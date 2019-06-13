@@ -1,12 +1,16 @@
-# minfin-crawler
+# ML_project
 
-## How to run
+## Data analysis
+
+## Data scrapping
+
+### How to run
 
 indexer.js - `node indexer.js --orgCode aval --startPage 1 --finishPage 35`
 
 scrapper.js - `node scrapper.js --indexFile ./output/indexerOutput-1560263121013.json` or `node scrapper.js --indexFile ./output/indexerOutput-1560263121013.json --outputFolder ./output/[folder name]` if output folder already exists
 
-## Indexer output
+### Indexer output
 ```json
 {
   "data": {
@@ -22,7 +26,7 @@ scrapper.js - `node scrapper.js --indexFile ./output/indexerOutput-1560263121013
 }
 ```
 
-## Scrapper output
+### Scrapper output
 
 Folder with 4 folders
 - texts
@@ -31,3 +35,8 @@ Folder with 4 folders
 - done (no important data. used only as a helper)
 
 File names are dates when they were published in ISO format `[date].txt`
+
+
+## How to run
+1. Copy `Models` folder to `data-analysis` folder
+
